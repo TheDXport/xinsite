@@ -1,18 +1,18 @@
 
+import NameHeader from './components/NameHeader';
 import { articulatExtraBold } from './fonts';
-
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       {/* Container for Div 2 and Div 3 */}
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-row overflow-hidden">
+
         {/* Div 2: Left half, unscrollable */}
         <div className="w-1/2 p-4">
-          <h2 className={`text-xl mb-4 ${articulatExtraBold.className}`}>
-            Unscrollable Content (Div 2)
-          </h2>
-          <p className={`${articulatExtraBold.className}`}>This content will not scroll, even if it overflows.</p>
+          <div>
+            <NameHeader/>
+          </div>
         </div>
 
         {/* Div 3: Right half, scrollable */}

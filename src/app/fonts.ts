@@ -6,27 +6,27 @@ export const articulatExtraBold = localFont({
 })
 
 export const articulatMedium = localFont({
-  src: '../../public/fonts/ArticulatExtrabold.otf',
+  src: '../../public/fonts/ArticulatMedium.otf',
   display: 'swap',
 })
 
 export const articulatNormal = localFont({
-  src: '../../public/fonts/ArticulatExtrabold.otf',
+  src: '../../public/fonts/ArticulatNormal.otf',
   display: 'swap',
 })
 
 export const SFProBold = localFont({
-  src: '../../public/fonts/ArticulatExtrabold.otf',
+  src: '../../public/fonts/SFPRODISPLAYBOLD.otf',
   display: 'swap',
 })
 
 export const SFProMedium = localFont({
-  src: '../../public/fonts/ArticulatExtrabold.otf',
+  src: '../../public/fonts/SFPRODISPLAYMEDIUM.otf',
   display: 'swap',
 })
 
 export const SFProRegular = localFont({
-  src: '../../public/fonts/ArticulatExtrabold.otf',
+  src: '../../public/fonts/SFPRODISPLAYREGULAR.otf',
   display: 'swap',
 })
 
