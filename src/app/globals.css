@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .invisible-scrollbar {
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  .invisible-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;  /* Chrome, Safari, Opera */
+  }
+}
