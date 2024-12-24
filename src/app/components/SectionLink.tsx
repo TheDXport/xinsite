@@ -2,9 +2,9 @@
 import { SetStateAction, useState } from "react";
 
 const SectionLink = () => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState("ABOUT");
 
-  const handleClick = (section: SetStateAction<null>) => {
+  const handleClick = (section: SetStateAction<string>) => {
     // Only update activeLink if clicked on a different section
     if (activeLink !== section) {
       setActiveLink(section);
@@ -14,16 +14,16 @@ const SectionLink = () => {
   return (
     <div className="hidden md:block justify-start items-start w-auto py-8">
       <div className="flex flex-col items-start py-3 space-y-4">
-        <ButtonLink label="ABOUT" section="about" activeLink={activeLink} onClick={handleClick} />
-        <ButtonLink label="EDUCATION" section="education" activeLink={activeLink} onClick={handleClick} />
-        <ButtonLink label="EXPERIENCE" section="experience" activeLink={activeLink} onClick={handleClick} />
-        <ButtonLink label="PROJECTS" section="projects" activeLink={activeLink} onClick={handleClick} />
+        <ButtonLink label="ABOUT" section="ABOUT" activeLink={activeLink} onClick={handleClick} />
+        <ButtonLink label="EDUCATION" section="EDUCATION" activeLink={activeLink} onClick={handleClick} />
+        <ButtonLink label="EXPERIENCE" section="EXPERIENCE" activeLink={activeLink} onClick={handleClick} />
+        <ButtonLink label="PROJECTS" section="PROJECTS" activeLink={activeLink} onClick={handleClick} />
       </div>
     </div>
   );
 };
 
-const ButtonLink: React.FC<ButtonProps> = ({ label, section, activeLink, onClick }) => {
+const ButtonLink: React.FC<ButtonLinkProps> = ({ label, section, activeLink, onClick }) => {
   const isActive = activeLink === section;
   const [isHovered, setIsHovered] = useState(false);
 
@@ -46,7 +46,7 @@ const ButtonLink: React.FC<ButtonProps> = ({ label, section, activeLink, onClick
       />
       {/* Label */}
       <span
-        className={`pl-6 transition-all duration-300 ease-in-out ${
+        className={`pl-6 transition-all duration-300 ease-in-out tracking-wider ${
           isActive || isHovered ? "text-white" : "text-slate-400"
         } ${isActive || isHovered ? "ml-16" : "ml-10"}`}>
         {label}

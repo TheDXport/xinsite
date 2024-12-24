@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="" id="about">
+    <section className="" id="ABOUT">
       <div>about</div>
       <div>
         Hi! I am a Chinese-American raised in Brooklyn, New York, and currently studying @ Binghamton University

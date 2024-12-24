@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <section className="" id="projects">
+    <section className="" id="PROJECTS">
       <div>projects</div>
       <div className="flex flex-col space-x-5">
         <div>Algtype</div>

@@ -1,5 +1,20 @@
+import { DM_Mono } from "next/font/google";
+const DMMono = DM_Mono({
+  weight: "500",
+  subsets: ["latin"],
+});
+
 const ResumeButton = () => {
-  return <div></div>;
+  return (
+    <div className="mt-5">
+      <a
+        href=""
+        className={`${DMMono.className} py-4 px-8 text-md bg-gradient-to-r from-white to-[#EBBFFD] text-black rounded-xl`}>
+        {" "}
+        get my resume
+      </a>
+    </div>
+  );
 };
 
 export default ResumeButton;
