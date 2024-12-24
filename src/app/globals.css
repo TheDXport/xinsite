@@ -2,14 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-#d {
-  background-color: hsl(0, 0%, 0%);
-  background-image: radial-gradient(
-    circle closest-corner at center top,
-    hsl(0, 0%, 100%)-1200%,
-    hsl(100, 10%, 10%) 210%
-  );
+html {
+  scroll-behavior: smooth;
 }
+
 @layer utilities {
   .invisible-scrollbar {
     scrollbar-width: none; /* Firefox */
