@@ -1,16 +1,10 @@
+import { articulatMedium } from "../fonts";
+
 const Experience = () => {
   return (
-    <section className="" id="EXPERIENCE">
-      <div>experience</div>
-      <div>
-        <h4>Sep 2023 — June 2024</h4>
-        <h1>FDRCodes, Founder</h1>
-        <h3>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus similique explicabo obcaecati sequi modi
-          dolorem quod, provident, a eos, exercitationem vel neque. Reiciendis quo vel in sint blanditiis, consequatur
-          omnis.
-        </h3>
-      </div>
+    <section className="pt-24" id="EXPERIENCE">
+      <div className={`${articulatMedium.className} text-[#979797]`}>experience</div>
+      <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
     </section>
   );
 };

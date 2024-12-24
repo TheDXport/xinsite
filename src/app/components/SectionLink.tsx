@@ -23,7 +23,7 @@ const SectionLink = () => {
   );
 };
 
-const ButtonLink: React.FC<ButtonLinkProps> = ({ label, section, activeLink, onClick }) => {
+const ButtonLink: React.FC<props> = ({ label, section, activeLink, onClick }) => {
   const isActive = activeLink === section;
   const [isHovered, setIsHovered] = useState(false);
 
