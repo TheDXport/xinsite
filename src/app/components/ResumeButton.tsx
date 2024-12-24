@@ -6,11 +6,10 @@ const DMMono = DM_Mono({
 
 const ResumeButton = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-9 md:mt-5">
       <a
         href=""
-        className={`${DMMono.className} py-4 px-8 text-md bg-gradient-to-r from-white to-[#EBBFFD] text-black rounded-xl`}>
-        {" "}
+        className={`${DMMono.className} py-4 px-10 text-md bg-gradient-to-r from-white to-[#EBBFFD] text-black rounded-xl`}>
         get my resume
       </a>
     </div>

@@ -13,7 +13,7 @@ const SectionLink = () => {
 
   return (
     <div className="hidden md:block justify-start items-start w-auto py-8">
-      <div className="flex flex-col items-start py-3 space-y-4">
+      <div className="flex flex-col items-start py-3 space-y-5">
         <ButtonLink label="ABOUT" section="ABOUT" activeLink={activeLink} onClick={handleClick} />
         <ButtonLink label="EDUCATION" section="EDUCATION" activeLink={activeLink} onClick={handleClick} />
         <ButtonLink label="EXPERIENCE" section="EXPERIENCE" activeLink={activeLink} onClick={handleClick} />
