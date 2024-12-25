@@ -1,17 +1,17 @@
 import localFont from "next/font/local";
 
 const articulatMedium = localFont({
-  src: "../../../public/fonts/ArticulatMedium.otf",
+  src: "../../../public/fonts/articulatmedium.otf",
 });
 const SFProBold = localFont({
-  src: "../../../public/fonts/SFPRODISPLAYBOLD.otf",
+  src: "../../../public/fonts/sfprobold.otf",
 });
 
 const SFProLightItalic = localFont({
-  src: "../../../public/fonts/SFPRODISPLAYLIGHTITALIC.otf",
+  src: "../../../public/fonts/sfprolightitalic.otf",
 });
 const SFProRegular = localFont({
-  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+  src: "../../../public/fonts/sfproregular.otf",
 });
 
 interface ExperienceProps {

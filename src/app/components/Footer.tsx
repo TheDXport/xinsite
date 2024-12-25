@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
 const SFProRegular = localFont({
-  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+  src: "../../../public/fonts/sfproregular.otf",
 });
 const Footer = () => {
   return (

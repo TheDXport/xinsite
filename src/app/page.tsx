@@ -13,11 +13,11 @@ import SocialLinks from "./components/SocialLinks";
 import { useEffect, useRef } from "react";
 
 const articulatNormal = localFont({
-  src: "../../public/fonts/ArticulatNormal.otf",
+  src: "../../public/fonts/articulatnormal.otf",
 });
 
 const SFProMedium = localFont({
-  src: "../../public/fonts/SFPRODISPLAYMEDIUM.otf",
+  src: "../../public/fonts/sfpromedium.otf",
 });
 
 export default function Home() {
