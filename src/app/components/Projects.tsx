@@ -55,7 +55,7 @@ const Projects = () => {
   const projectData: ProjectProps[] = [
     {
       title: "Algtype",
-      link: "https://algotype.vercel.app",
+      link: "https://algtype.vercel.app",
       desc: "Web application for testing the typing speeds of individuals for different algorithms and languages. View your WPM, accuracy, time per word, and errors made",
       icon: "FaRegKeyboard", // Icon string name
       tag1: "Typescript",
