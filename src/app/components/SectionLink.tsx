@@ -15,7 +15,7 @@ const SectionLink = () => {
     const options = {
       root: null, // Viewport is the root
       rootMargin: "0px", // No offset
-      threshold: 0.99, // Trigger when 50% of the section is visible
+      threshold: 0.85, // Trigger when 50% of the section is visible
     };
 
     const observer = new IntersectionObserver((entries) => {
