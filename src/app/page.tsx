@@ -9,7 +9,7 @@ import ResumeButton from "./components/ResumeButton";
 import SectionLink from "./components/SectionLink";
 import SocialLinks from "./components/SocialLinks";
 
-import { articulatExtraBold, articulatNormal, SFProMedium } from "./fonts";
+import { articulatNormal, SFProMedium } from "./fonts";
 import { useEffect, useRef } from "react";
 
 export default function Home() {

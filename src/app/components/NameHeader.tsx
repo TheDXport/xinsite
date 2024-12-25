@@ -1,4 +1,4 @@
-import { articulatExtraBold, articulatMedium } from "../fonts";
+import { articulatMedium } from "../fonts";
 import { Gloock, Corinthia } from "next/font/google";
 
 const gloock = Gloock({
