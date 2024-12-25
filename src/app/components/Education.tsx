@@ -28,7 +28,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="pt-28 section" id="EDUCATION">
+    <section className="pt-52 section" id="EDUCATION">
       <div className={`${articulatMedium.className} text-[#979797]`}>education</div>
       <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
       <div className={`${SFProRegular.className} flex flex-col tracking-[0.01em] space-y-6`}>
