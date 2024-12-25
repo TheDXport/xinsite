@@ -28,17 +28,17 @@ const Education = () => {
   ];
 
   return (
-    <section className="pt-24" id="EDUCATION">
+    <section className="pt-28 section" id="EDUCATION">
       <div className={`${articulatMedium.className} text-[#979797]`}>education</div>
       <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
       <div className={`${SFProRegular.className} flex flex-col tracking-[0.01em] space-y-6`}>
         {educationData.map((item, index) => (
           <div key={index} className="mt-4 py-5 px-6 box">
-            <h1 className={`${SFProBold.className} text-xl`}>{item.schoolName}</h1>
-            <h2 className="text-[#d7d7d7]">{item.graduationYear}</h2>
-            <p className="mt-1 text-[#a3a3a3]">{item.coursework}</p>
+            <h1 className={`${SFProBold.className} text-xl text-[#d8d6d9]`}>{item.schoolName}</h1>
+            <h2 className="text-[#b7b7b7]">{item.graduationYear}</h2>
+            <p className="mt-1 text-[#989898]">{item.coursework}</p>
             {/* Conditionally render achievements if available */}
-            {item.achievements && <p className="text-[#a3a3a3]">{item.achievements}</p>}
+            {item.achievements && <p className="text-[#989898]">{item.achievements}</p>}
           </div>
         ))}
       </div>
