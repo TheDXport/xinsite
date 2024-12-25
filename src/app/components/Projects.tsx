@@ -12,6 +12,7 @@ const iconMapping: { [key: string]: React.ElementType } = {
 
 interface ProjectProps {
   title: string;
+  link: string;
   desc: string;
   icon: string;
   tag1?: string;
@@ -54,6 +55,7 @@ const Projects = () => {
   const projectData: ProjectProps[] = [
     {
       title: "Algtype",
+      link: "https://algotype.vercel.app",
       desc: "Web application for testing the typing speeds of individuals for different algorithms and languages. View your WPM, accuracy, time per word, and errors made",
       icon: "FaRegKeyboard", // Icon string name
       tag1: "Typescript",
@@ -61,6 +63,7 @@ const Projects = () => {
     },
     {
       title: "Personal Website",
+      link: "https://github.com/TheDXport/xinsite",
       desc: "The current & most revamped version of my portfolio, built in 2024",
       icon: "CgWebsite", // Icon string name
       tag1: "Typescript",
@@ -86,7 +89,7 @@ const Projects = () => {
                 onMouseEnter={() => {}}
                 onMouseLeave={() => {}}>
                 {/* Render the corresponding icon component with dynamic size */}
-                <a href="">
+                <a href={item.link}>
                   <IconComponent
                     size={iconSize}
                     className=" transition-all duration-300 ease-in-out group-hover:scale-105 group-hover:translate-y-[-10px] text-white/70 group-hover:text-white"
@@ -96,7 +99,7 @@ const Projects = () => {
               <div className="text-start ml-7 tracking-[0.01em] justify-center flex flex-col">
                 <a
                   className={`${SFProBold.className} flex text-xl text-[#d8d6d9] transition-all duration-300 ease-in-out hover:text-2xl hover:translate-y-[-2px] hover:text-[#edecec]`}
-                  href="">
+                  href={item.link}>
                   {item.title} <HiOutlineExternalLink className="ml-1 mt-1" />
                 </a>
                 <h2 className={`${SFProRegular.className} text-md text-[#989898]`}>{item.desc}</h2>

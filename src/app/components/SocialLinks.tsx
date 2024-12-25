@@ -13,7 +13,7 @@ const SocialLinks = () => {
     <div>
       <div className="flex flex-row mt-12 space-x-8">
         <a
-          href=""
+          href="https://github.com/TheDXport"
           onMouseEnter={() => handleMouseEnter("github")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           <FaGithubSquare size={35} />
         </a>
         <a
-          href=""
+          href="https://www.linkedin.com/in/xinnn/"
           onMouseEnter={() => handleMouseEnter("linkedin")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           <FaLinkedin size={35} />
         </a>
         <a
-          href=""
+          href="mailto:dxin1315@gmail.com"
           onMouseEnter={() => handleMouseEnter("mail")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
