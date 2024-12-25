@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import ResumeButton from "./components/ResumeButton";
 import SectionLink from "./components/SectionLink";
 import SocialLinks from "./components/SocialLinks";
+
 import { articulatExtraBold, articulatNormal, SFProMedium } from "./fonts";
 import { useEffect, useRef } from "react";
 
@@ -49,7 +50,7 @@ export default function Home() {
 
           {/* Div 3: Right half, scrollable */}
           <div
-            className={`${SFProMedium.className} mt-6 sm:mt-0 md:mt-6 lg:mt-6 md:ml-[50vw] lg:ml-[55vw] md:w-3/4 lg:w-[40rem] px-10 md:py-5 lg:p-16 overflow-y-scroll invisible-scrollbar xl:px-14 `}>
+            className={`${SFProMedium.className} mt-6 sm:mt-0 md:mt-6 lg:mt-6 md:ml-[50vw] lg:ml-[55vw] md:w-3/4 lg:w-[40rem] p-10 sm:pl-10 md:pl-0 md:py-5 lg:p-16 overflow-y-scroll invisible-scrollbar xl:px-0 `}>
             <About />
             <Education />
             <Experience />

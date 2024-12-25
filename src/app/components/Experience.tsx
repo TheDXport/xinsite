@@ -35,7 +35,7 @@ const Experience = () => {
             <div className={`${SFProRegular.className} flex flex-col text-[#989898]`}>
               <p>{item.bullet1}</p>
               <p>{item.bullet2}</p>
-              <p>{item.bullet2}</p>
+              <p>{item.bullet3}</p>
             </div>
           </div>
         ))}

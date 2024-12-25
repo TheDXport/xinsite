@@ -37,3 +37,17 @@ html {
   mask: /*4*/ linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
   mask-composite: exclude; /*5*/
 }
+
+.box2 {
+  position: relative;
+}
+.box2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px; /*1*/
+  border: 2px solid transparent; /*2*/
+  background: linear-gradient(155deg, #a2a1a3, rgba(108, 107, 108, 0.2), rgba(10, 9, 11, 0.001)) border-box; /*3*/
+  mask: /*4*/ linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  mask-composite: exclude; /*5*/
+}
