@@ -22,7 +22,7 @@ const NameHeader = () => {
         Student, Developer, <span className={`${corinthia.className} text-4xl pl-1 `}>Designer.</span>
       </h3>
       <p className={`${articulatMedium.className} w-4/5 pt-4 text-xl text-passiveText text-wrap`}>
-        I enjoy creating thoughtful user experiences with precise attention to detail.
+        I create thoughtful user experiences with precise attention to detail.
       </p>
     </div>
   );

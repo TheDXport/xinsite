@@ -10,7 +10,7 @@ export default {
     extend: {
       fontSize: {
         lgandxl: [
-          "1.2rem",
+          "1.17rem",
           {
             lineHeight: "1.7rem",
           },

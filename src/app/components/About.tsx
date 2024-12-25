@@ -22,9 +22,7 @@ const About = () => {
         Hi! I am a Chinese-American raised in Brooklyn, New York, and currently studying{" "}
         <span
           className={`${
-            hoveredWord === "boldword0"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword0" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 `}
           onMouseEnter={() => handleMouseEnter("boldword0")}
@@ -34,9 +32,7 @@ const About = () => {
         pursuing a{" "}
         <span
           className={`${
-            hoveredWord === "boldword1"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword1" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 `}
           onMouseEnter={() => handleMouseEnter("boldword1")}
@@ -47,9 +43,7 @@ const About = () => {
         languages such as{" "}
         <span
           className={`${
-            hoveredWord === "boldword2"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword2" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword2")}
@@ -59,9 +53,7 @@ const About = () => {
         ,{" "}
         <span
           className={`${
-            hoveredWord === "boldword3"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword3" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword3")}
@@ -71,9 +63,7 @@ const About = () => {
         ,{" "}
         <span
           className={`${
-            hoveredWord === "boldword4"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword4" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword4")}
@@ -83,9 +73,7 @@ const About = () => {
         , and{" "}
         <span
           className={`${
-            hoveredWord === "boldword5"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword5" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword5")}
@@ -95,9 +83,7 @@ const About = () => {
         , complementing them with frameworks such as{" "}
         <span
           className={`${
-            hoveredWord === "boldword6"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword6" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword6")}
@@ -107,9 +93,7 @@ const About = () => {
         ,{" "}
         <span
           className={`${
-            hoveredWord === "boldword7"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword7" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword7")}
@@ -119,9 +103,7 @@ const About = () => {
         , and{" "}
         <span
           className={`${
-            hoveredWord === "boldword8"
-              ? "text-lgandxl translate-y-[-5px] bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
-              : "bg-gradient-to-b from-[#d0cdd4] via-[#c0bdc4] to-[#191515] inline text-transparent bg-clip-text"
+            hoveredWord === "boldword8" ? "text-lgandxl translate-y-[-5px] text-[#cbc8ce] " : "text-[#989898]"
           } 
           transform transition-all duration-450 ease-in-out `}
           onMouseEnter={() => handleMouseEnter("boldword8")}

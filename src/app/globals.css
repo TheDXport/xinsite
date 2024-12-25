@@ -17,3 +17,23 @@ html {
     display: none; /* Chrome, Safari, Opera */
   }
 }
+.hero {
+  background-image: radial-gradient(
+    circle farthest-side at var(--x, 100px) var(--y, 0px),
+    #8981ff -250%,
+    transparent 20%
+  );
+}
+.box {
+  position: relative;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px; /*1*/
+  border: 2px solid transparent; /*2*/
+  background: linear-gradient(90deg, #eaeaea, #363535, #0a090b) border-box; /*3*/
+  mask: /*4*/ linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  mask-composite: exclude; /*5*/
+}

@@ -25,6 +25,106 @@ const Projects = () => {
         consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
         aliquam?
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur facere sapiente cum officiis. Inventore
+        consequatur nobis id esse veniam! Laborum ipsa perferendis facere quos quaerat nobis! Voluptate esse natus
+        aliquam?
+      </p>
     </section>
   );
 };
