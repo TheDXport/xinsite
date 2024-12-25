@@ -17,7 +17,7 @@ const SocialLinks = () => {
           onMouseEnter={() => handleMouseEnter("github")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "github" ? "scale-110 translate-y-[-5px] text-white" : "text-white/80"
+            hoveredIcon === "github" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           }`}>
           <FaGithubSquare size={35} />
         </a>
@@ -26,7 +26,7 @@ const SocialLinks = () => {
           onMouseEnter={() => handleMouseEnter("linkedin")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "linkedin" ? "scale-110 translate-y-[-5px] text-white" : "text-white/80"
+            hoveredIcon === "linkedin" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           }`}>
           <FaLinkedin size={35} />
         </a>
@@ -35,7 +35,7 @@ const SocialLinks = () => {
           onMouseEnter={() => handleMouseEnter("mail")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "mail" ? "scale-110 translate-y-[-5px] text-white" : "text-white/80"
+            hoveredIcon === "mail" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           }`}>
           <IoMail size={35} />
         </a>

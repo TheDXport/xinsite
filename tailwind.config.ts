@@ -15,6 +15,12 @@ export default {
             lineHeight: "1.7rem",
           },
         ],
+        mdandlg: [
+          "1.05rem",
+          {
+            lineHeight: "1.50rem",
+          },
+        ],
       },
       dropShadow: {
         "3xl": "0 0px 3px rgba(255, 255, 255, 0.5)",
