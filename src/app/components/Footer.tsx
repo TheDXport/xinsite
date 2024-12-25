@@ -1,5 +1,8 @@
-import { SFProRegular } from "../fonts";
+import localFont from "next/font/local";
 
+const SFProRegular = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+});
 const Footer = () => {
   return (
     <footer className={`${SFProRegular.className} mt-44 py-20 `}>

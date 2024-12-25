@@ -1,4 +1,14 @@
-import { articulatMedium, SFProBold, SFProRegular } from "../fonts";
+import localFont from "next/font/local";
+
+const articulatMedium = localFont({
+  src: "../../../public/fonts/ArticulatMedium.otf",
+});
+const SFProBold = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYBOLD.otf",
+});
+const SFProRegular = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+});
 
 // Interface to define the structure of each education item
 interface EducationItemProps {

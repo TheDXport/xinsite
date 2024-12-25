@@ -1,4 +1,18 @@
-import { articulatMedium, SFProBold, SFProLightItalic, SFProRegular } from "../fonts";
+import localFont from "next/font/local";
+
+const articulatMedium = localFont({
+  src: "../../../public/fonts/ArticulatMedium.otf",
+});
+const SFProBold = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYBOLD.otf",
+});
+
+const SFProLightItalic = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYLIGHTITALIC.otf",
+});
+const SFProRegular = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+});
 
 interface ExperienceProps {
   timeframe: string;

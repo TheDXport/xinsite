@@ -1,4 +1,5 @@
 "use client";
+import localFont from "next/font/local";
 import About from "./components/About";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
@@ -9,8 +10,15 @@ import ResumeButton from "./components/ResumeButton";
 import SectionLink from "./components/SectionLink";
 import SocialLinks from "./components/SocialLinks";
 
-import { articulatNormal, SFProMedium } from "./fonts";
 import { useEffect, useRef } from "react";
+
+const articulatNormal = localFont({
+  src: "../../public/fonts/ArticulatNormal.otf",
+});
+
+const SFProMedium = localFont({
+  src: "../../public/fonts/SFPRODISPLAYMEDIUM.otf",
+});
 
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);

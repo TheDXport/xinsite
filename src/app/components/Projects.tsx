@@ -1,8 +1,19 @@
 import { FaRegKeyboard } from "react-icons/fa6";
 import { CgWebsite } from "react-icons/cg";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import { articulatMedium, SFProBold, SFProRegular } from "../fonts";
+
 import { useState, useEffect } from "react";
+import localFont from "next/font/local";
+
+const articulatMedium = localFont({
+  src: "../../../public/fonts/ArticulatMedium.otf",
+});
+const SFProBold = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYBOLD.otf",
+});
+const SFProRegular = localFont({
+  src: "../../../public/fonts/SFPRODISPLAYREGULAR.otf",
+});
 
 // Define the icon mapping
 const iconMapping: { [key: string]: React.ElementType } = {

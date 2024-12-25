@@ -1,7 +1,10 @@
 "use client";
-import { articulatMedium } from "../fonts";
-import { useState } from "react";
+import localFont from "next/font/local";
 
+import { useState } from "react";
+const articulatMedium = localFont({
+  src: "../../../public/fonts/ArticulatMedium.otf",
+});
 const About = () => {
   const [hoveredWord, setHoveredWord] = useState<string | null>(null); // Track hovered icon by ID
 
