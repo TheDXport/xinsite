@@ -113,6 +113,16 @@ const About = () => {
           onMouseLeave={handleMouseLeave}>
           Tailwind CSS
         </span>
+        <div className="mt-3 space-y-3">
+          <h3>
+            In my spare time, you can find me making some tweaks to my portfolio, mastering DSA concepts, and learning
+            new programming languages and frameworks.
+          </h3>
+          <h3>
+            When I’m not around my desk and computer, I enjoy working out, filming and editing cinematography, and
+            bowling!{" "}
+          </h3>
+        </div>
       </div>
     </section>
   );
