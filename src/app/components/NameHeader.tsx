@@ -19,14 +19,14 @@ const NameHeader = () => {
   return (
     <div className="flex flex-col justify-center items-start">
       {/* Component 1 with no delay */}
-      <h1 className={`${gloock.className}  pb-2 text-6xl md:text-7xl lg:text-7xl space-x-4 `}>
+      <h1 className={`${gloock.className}  text-6xl md:text-7xl lg:text-7xl space-x-4 `}>
         <span
           className="animate-fadeIn opacity-0 drop-shadow-3xl bg-gradient-to-b from-white via-[#d8d1db] to-[#7576B8] inline-block text-transparent bg-clip-text"
           style={{ animationDelay: "30ms" }}>
           Xin
         </span>
         <span
-          className="animate-fadeIn opacity-0 drop-shadow-3xl bg-gradient-to-b from-white via-[#d8d1db] to-[#7576B8] inline-block text-transparent bg-clip-text"
+          className="pb-2 animate-fadeIn opacity-0 drop-shadow-3xl bg-gradient-to-b from-white via-[#d8d1db] to-[#7576B8] inline-block text-transparent bg-clip-text"
           style={{ animationDelay: "100ms" }}>
           Dong
         </span>
