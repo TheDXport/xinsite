@@ -1,5 +1,3 @@
-import type { Config } from "tailwindcss";
-
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -32,7 +30,16 @@ export default {
         bingBG: "#7DFF86",
         fdrBG: "#FF7D7D",
       },
+      animation: {
+        fadeIn: "fadeIn 1s ease-in-out forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
     },
+    plugins: [],
   },
-  plugins: [],
-} satisfies Config;
+};

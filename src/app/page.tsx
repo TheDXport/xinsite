@@ -46,7 +46,7 @@ export default function Home() {
         {/* Container for Div 2 and Div 3 */}
         <div className="flex flex-col sm:flex-col md:flex-row">
           {/* RED: Div 2: Left half, unscrollable */}
-          <div className="w-full md:w-1/2 lg:w-1/2 p-4 mt-24 md:mt-28 lg:mt-42 pl-0 sm:pl-6 md:pl-9 lg:pl-32 xl:pl-48 overflow-hidden md:top-0 md:fixed lg:top-0 lg:fixed">
+          <div className="w-full md:w-1/2 lg:w-1/2 p-4 mt-24 md:mt-28 lg:mt-42 pl-6 sm:pl-6 md:pl-9 lg:pl-32 xl:pl-48 overflow-hidden md:top-0 md:fixed lg:top-0 lg:fixed">
             {/* ORANGE */}
             <div className={`${articulatNormal.className}  flex flex-col lg:pr-4 w-92 `}>
               <NameHeader />
