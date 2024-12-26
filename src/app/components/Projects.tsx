@@ -83,7 +83,10 @@ const Projects = () => {
   ];
 
   return (
-    <section className="pt-20 mt-20 section" id="PROJECTS">
+    <section
+      className="pt-20 mt-20 section animate-fadeIn opacity-0"
+      style={{ animationDelay: "2000ms" }}
+      id="PROJECTS">
       <div className={`${articulatMedium.className} text-[#979797]`}>projects</div>
       <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
 

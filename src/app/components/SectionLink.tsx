@@ -75,7 +75,8 @@ const ButtonLink: React.FC<{
     <a
       href={`#${section}`}
       onClick={() => onClick(section)}
-      className="relative text-md cursor-pointer group flex items-center"
+      className="relative text-md cursor-pointer group flex items-center animate-fadeIn opacity-0"
+      style={{ animationDelay: "1100ms" }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}>
       <span

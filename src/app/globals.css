@@ -19,8 +19,8 @@ html {
 }
 .hero {
   background-image: radial-gradient(
-    circle farthest-side at var(--x, 100px) var(--y, 0px),
-    #8981ff -250%,
+    circle farthest-side at var(--x, 100px) var(--y, 100px),
+    #8981ff -200%,
     transparent 20%
   );
 }

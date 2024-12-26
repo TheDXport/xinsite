@@ -31,12 +31,18 @@ export default {
         fdrBG: "#FF7D7D",
       },
       animation: {
-        fadeIn: "fadeIn 1s ease-in-out forwards",
+        fadeIn: "fadeIn 0.5s ease-in-out forwards",
       },
       keyframes: {
         fadeIn: {
-          "0%": { opacity: 0 },
-          "100%": { opacity: 1 },
+          "0%": {
+            opacity: 0,
+            transform: "scale(1.01)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "scale(1)",
+          },
         },
       },
     },

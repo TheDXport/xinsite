@@ -12,7 +12,10 @@ const About = () => {
   const handleMouseLeave = () => setHoveredWord(null);
 
   return (
-    <section className="pt-36 select-none section" id="ABOUT">
+    <section
+      className="pt-36 select-none section animate-fadeIn opacity-0"
+      id="ABOUT"
+      style={{ animationDelay: "1700ms" }}>
       <div className={`${articulatMedium.className} text-[#979797]`}>about</div>
       <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
       <div className="mt-1 text-lg text-[#5c5c5c] max-w-full transform transition-all duration-700">
