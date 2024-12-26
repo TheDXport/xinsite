@@ -38,7 +38,7 @@ const Experience = () => {
     },
   ];
   return (
-    <section className="pt-24 section" id="EXPERIENCE">
+    <section className="pt-20 mt-20 section" id="EXPERIENCE">
       <div className={`${articulatMedium.className} text-[#979797]`}>experience</div>
       <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
       <div>
