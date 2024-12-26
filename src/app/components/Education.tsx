@@ -43,7 +43,7 @@ const Education = () => {
       style={{ animationDelay: "1800ms" }}
       id="EDUCATION">
       <div className={`${articulatMedium.className} text-[#979797]`}>education</div>
-      <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
+      <span className="absolute h-[0.08rem] bg-[#979797] w-52 md:w-72 mt-[-2px]" />
       <div className={`${SFProRegular.className} flex flex-col tracking-[0.01em] space-y-6`}>
         {educationData.map((item, index) => (
           <div key={index} className="mt-4 py-5 px-6 box">

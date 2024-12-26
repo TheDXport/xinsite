@@ -43,7 +43,7 @@ const Experience = () => {
       style={{ animationDelay: "1900ms" }}
       id="EXPERIENCE">
       <div className={`${articulatMedium.className} text-[#979797]`}>experience</div>
-      <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
+      <span className="absolute h-[0.08rem] bg-[#979797] w-52 md:w-72 mt-[-2px]" />
       <div>
         {experienceData.map((item, index) => (
           <div key={index} className="tracking-[0.01em] mt-3 pb-4">

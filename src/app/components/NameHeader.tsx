@@ -46,35 +46,35 @@ const NameHeader = () => {
         </span>
       </h3>
 
-      <p className={`${articulatMedium.className} w-4/5 pt-4 text-xl flex text-wrap text-passiveText space-x-1`}>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "450ms" }}>
+      <p className={`${articulatMedium.className} w-4/5 pt-4 text-xl flex flex-wrap text-passiveText `}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "450ms" }}>
           I
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "500ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "500ms" }}>
           create
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "550ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "550ms" }}>
           thoughtful
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "600ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "600ms" }}>
           user
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "650ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "650ms" }}>
           experiences
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "700ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "700ms" }}>
           with
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "750ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "750ms" }}>
           precise
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "800ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "800ms" }}>
           attention
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "850ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "850ms" }}>
           to
         </span>
-        <span className="animate-fadeIn opacity-0 " style={{ animationDelay: "900ms" }}>
+        <span className="animate-fadeIn opacity-0 pr-1 " style={{ animationDelay: "900ms" }}>
           detail.
         </span>
       </p>

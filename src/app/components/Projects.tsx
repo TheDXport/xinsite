@@ -88,7 +88,7 @@ const Projects = () => {
       style={{ animationDelay: "2000ms" }}
       id="PROJECTS">
       <div className={`${articulatMedium.className} text-[#979797]`}>projects</div>
-      <span className="absolute h-[0.08rem] bg-[#979797] w-72 mt-[-2px]" />
+      <span className="absolute h-[0.08rem] bg-[#979797] w-52 md:w-72 mt-[-2px]" />
 
       {/* Flex container for the cards */}
       <div className="flex flex-col mt-4 gap-6 w-full">
@@ -112,9 +112,11 @@ const Projects = () => {
               </div>
               <div className="text-start ml-7 tracking-[0.01em] justify-center flex flex-col">
                 <a
-                  className={`${SFProBold.className} flex text-xl text-[#d8d6d9] transition-all duration-300 ease-in-out hover:text-2xl hover:translate-y-[-2px] hover:text-[#edecec]`}
+                  className={`${SFProBold.className} flex text-lg md:text-xl text-[#d8d6d9] transition-all duration-300 ease-in-out hover:text-2xl hover:translate-y-[-2px] hover:text-[#edecec]`}
                   href={item.link}>
-                  {item.title} <HiOutlineExternalLink className="ml-1 mt-1" />
+                  <p className="flex flex-wrap">
+                    {item.title} <HiOutlineExternalLink className="ml-1 mt-1" />
+                  </p>
                 </a>
                 <h2 className={`${SFProRegular.className} text-md text-[#989898]`}>{item.desc}</h2>
                 <div className="flex flex-wrap gap-3 mt-3 text-sm text-[#e7e7e7]">

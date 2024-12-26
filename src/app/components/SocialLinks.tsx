@@ -11,7 +11,7 @@ const SocialLinks = () => {
 
   return (
     <div>
-      <div className="flex flex-row mt-12 space-x-8">
+      <div className="flex flex-row mt-12 space-x-6 md:space-x-8">
         <a
           href="https://github.com/TheDXport"
           onMouseEnter={() => handleMouseEnter("github")}
@@ -20,7 +20,7 @@ const SocialLinks = () => {
             hoveredIcon === "github" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           } animate-fadeIn opacity-0`}
           style={{ animationDelay: "1400ms" }}>
-          <FaGithubSquare size={35} />
+          <FaGithubSquare className="text-[31px] md:text-[35px]" />
         </a>
         <a
           href="https://www.linkedin.com/in/xinnn/"
@@ -30,7 +30,7 @@ const SocialLinks = () => {
             hoveredIcon === "linkedin" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           } animate-fadeIn opacity-0`}
           style={{ animationDelay: "1500ms" }}>
-          <FaLinkedin size={35} />
+          <FaLinkedin className="text-[31px] md:text-[35px]" />
         </a>
         <a
           href="mailto:dxin1315@gmail.com"
@@ -40,7 +40,7 @@ const SocialLinks = () => {
             hoveredIcon === "mail" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
           } animate-fadeIn opacity-0`}
           style={{ animationDelay: "1600ms" }}>
-          <IoMail size={35} />
+          <IoMail className="text-[31px] md:text-[35px]" />
         </a>
       </div>
     </div>
