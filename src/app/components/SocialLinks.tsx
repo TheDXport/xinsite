@@ -17,9 +17,12 @@ const SocialLinks = () => {
           onMouseEnter={() => handleMouseEnter("github")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "github" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
+            hoveredIcon === "github"
+              ? "scale-110 translate-y-[-5px] text-white"
+              : "text-white/70"
           } animate-fadeIn opacity-0`}
-          style={{ animationDelay: "1400ms" }}>
+          style={{ animationDelay: "1400ms" }}
+        >
           <FaGithubSquare className="text-[31px] md:text-[35px]" />
         </a>
         <a
@@ -27,19 +30,25 @@ const SocialLinks = () => {
           onMouseEnter={() => handleMouseEnter("linkedin")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "linkedin" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
+            hoveredIcon === "linkedin"
+              ? "scale-110 translate-y-[-5px] text-white"
+              : "text-white/70"
           } animate-fadeIn opacity-0`}
-          style={{ animationDelay: "1500ms" }}>
+          style={{ animationDelay: "1500ms" }}
+        >
           <FaLinkedin className="text-[31px] md:text-[35px]" />
         </a>
         <a
-          href="mailto:dxin1315@gmail.com"
+          href="mailto:hello@xindong.dev"
           onMouseEnter={() => handleMouseEnter("mail")}
           onMouseLeave={handleMouseLeave}
           className={`transform transition-all duration-300 ${
-            hoveredIcon === "mail" ? "scale-110 translate-y-[-5px] text-white" : "text-white/70"
+            hoveredIcon === "mail"
+              ? "scale-110 translate-y-[-5px] text-white"
+              : "text-white/70"
           } animate-fadeIn opacity-0`}
-          style={{ animationDelay: "1600ms" }}>
+          style={{ animationDelay: "1600ms" }}
+        >
           <IoMail className="text-[31px] md:text-[35px]" />
         </a>
       </div>
