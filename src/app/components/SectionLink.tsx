@@ -1,6 +1,9 @@
 "use client";
+import localFont from "next/font/local";
 import { SetStateAction, useState, useEffect } from "react";
-
+const articulatMedium = localFont({
+  src: "../../../public/fonts/articulatmedium.otf",
+});
 const SectionLink = () => {
   const [activeLink, setActiveLink] = useState("ABOUT");
 
@@ -49,7 +52,7 @@ const SectionLink = () => {
 
   return (
     <div className="hidden md:block justify-start items-start w-auto py-8">
-      <div className="flex flex-col items-start py-3 space-y-5">
+      <div className={` ${articulatMedium.className} flex flex-col items-start py-3 space-y-5`}>
         <ButtonLink label="ABOUT" section="ABOUT" activeLink={activeLink} onClick={handleClick} />
         <ButtonLink label="EDUCATION" section="EDUCATION" activeLink={activeLink} onClick={handleClick} />
         <ButtonLink label="EXPERIENCE" section="EXPERIENCE" activeLink={activeLink} onClick={handleClick} />

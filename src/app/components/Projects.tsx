@@ -1,6 +1,8 @@
 import { FaRegKeyboard } from "react-icons/fa6";
+import { FaBacteria } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { HiOutlineExternalLink } from "react-icons/hi";
+import { CiMemoPad } from "react-icons/ci";
 
 import { useState, useEffect } from "react";
 import localFont from "next/font/local";
@@ -19,6 +21,8 @@ const SFProRegular = localFont({
 const iconMapping: { [key: string]: React.ElementType } = {
   FaRegKeyboard: FaRegKeyboard,
   CgWebsite: CgWebsite,
+  CiMemoPad: CiMemoPad,
+  FaBacteria: FaBacteria,
 };
 
 interface ProjectProps {
@@ -71,6 +75,21 @@ const Projects = () => {
       icon: "FaRegKeyboard", // Icon string name
       tag1: "Typescript",
       tag2: "Next.js",
+    },
+    {
+      title: "Game of Life",
+      link: " https://github.com/TheDXport/BacteriaSim",
+      desc: "A remade version of Conway's Game of Life, where bacteria can move and grow with similar rules to the original game",
+      icon: "FaBacteria", // Using the string name that maps to the icon component
+      tag1: "Java",
+    },
+
+    {
+      title: "Wordle",
+      link: "https://github.com/TheDXport/wordle",
+      desc: "A complete clone of the popular word game, Wordle, built in 2024",
+      icon: "CiMemoPad", // Using the string name that maps to the icon component
+      tag1: "C",
     },
     {
       title: "Personal Website",
