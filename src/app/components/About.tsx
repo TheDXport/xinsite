@@ -129,7 +129,7 @@ const About = () => {
             bowling!{" "}
           </h3>
         </div>
-        <div className="relative lg:w-[38%] h-full mt-10 md:mt-0 rounded-3xl">
+        <div className="relative lg:w-[38%] h-full pt-8  rounded-3xl">
           <Image
             src="/IMG 8282.PNG"
             alt="Profile picture"
