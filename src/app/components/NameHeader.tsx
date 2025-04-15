@@ -3,12 +3,7 @@ import localFont from "next/font/local";
 const articulatMedium = localFont({
   src: "../../../public/fonts/articulatmedium.otf",
 });
-import { Gloock, Corinthia } from "next/font/google";
-
-const gloock = Gloock({
-  weight: "400",
-  subsets: ["latin"],
-});
+import { Corinthia } from "next/font/google";
 
 const corinthia = Corinthia({
   weight: "700",

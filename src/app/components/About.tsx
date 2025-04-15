@@ -125,8 +125,8 @@ const About = () => {
             concepts, and learning new programming languages and frameworks.
           </h3>
           <h3>
-            When I'm not around my desk and computer, I enjoy working out, practicing and editing cinematography, and
-            bowling!{" "}
+            When I&apos;m not around my desk and computer, I enjoy working out, practicing and editing cinematography,
+            and bowling!{" "}
           </h3>
         </div>
         <div className="relative lg:w-[38%] h-full pt-8  rounded-3xl">

@@ -1,9 +1,3 @@
-import { DM_Mono } from "next/font/google";
-const DMMono = DM_Mono({
-  weight: "500",
-  subsets: ["latin"],
-});
-
 const ResumeButton = () => {
   return (
     <div className="mt-9 md:mt-5">
