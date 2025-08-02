@@ -69,10 +69,10 @@ const Projects = () => {
 
   const projectData: ProjectProps[] = [
     {
-      title: "Algtype",
-      link: "https://algtype.vercel.app",
+      title: "LeetType",
+      link: "https://leet-type.vercel.app",
       desc: "Web application for testing the typing speeds of individuals for different algorithms and languages. View your WPM, accuracy, time per word, and errors made",
-      icon: "FaRegKeyboard", // Icon string name
+      icon: "FaRegKeyboard",
       tag1: "Typescript",
       tag2: "Next.js",
     },
@@ -80,7 +80,7 @@ const Projects = () => {
       title: "Game of Life",
       link: " https://github.com/TheDXport/BacteriaSim",
       desc: "A remade version of Conway's Game of Life, where bacteria can move and grow with similar rules to the original game",
-      icon: "FaBacteria", // Using the string name that maps to the icon component
+      icon: "FaBacteria",
       tag1: "Java",
     },
 
@@ -88,14 +88,14 @@ const Projects = () => {
       title: "Wordle",
       link: "https://github.com/TheDXport/wordle",
       desc: "A complete clone of the popular word game, Wordle, built in 2024",
-      icon: "CiMemoPad", // Using the string name that maps to the icon component
+      icon: "CiMemoPad",
       tag1: "C",
     },
     {
       title: "Personal Website",
       link: "https://github.com/TheDXport/xinsite",
       desc: "The current & most revamped version of my portfolio, built in 2024",
-      icon: "CgWebsite", // Icon string name
+      icon: "CgWebsite",
       tag1: "Typescript",
       tag2: "Next.js",
     },
@@ -112,7 +112,6 @@ const Projects = () => {
       {/* Flex container for the cards */}
       <div className="flex flex-col mt-4 gap-6 w-full">
         {projectData.map((item, index) => {
-          // Get the corresponding icon component from the mapping
           const IconComponent = iconMapping[item.icon];
 
           return (
@@ -121,7 +120,6 @@ const Projects = () => {
                 className="box2 group flex justify-center items-center p-[15%] sm:p-[15%] md:px-[20%] lg:p-[12%] xl:p-[20%] rounded-2xl "
                 onMouseEnter={() => {}}
                 onMouseLeave={() => {}}>
-                {/* Render the corresponding icon component with dynamic size */}
                 <a href={item.link}>
                   <IconComponent
                     size={iconSize}
